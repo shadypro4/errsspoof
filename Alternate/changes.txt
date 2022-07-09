@@ -1,0 +1,138 @@
+
+                                 BIOS Changes History
+      
+
+General Information:
+
+        O2VJ9xxUSA is Flash CD ROM image.
+        O2VJTxxUSA is Flash in DOS zip package.
+        O2VJYxxUSA is Flash in Windows utility.
+        O2VKTxxA is the binary image. (BIOS)
+        NOTE: All changes carry forward.  That is, if a change is added in 01,it is also in 02, 03 etc.
+
+This file will be updated from the beginning with first Production BIOS release
+
+
+
+
+
+CHANGES for O2VKT56A/O2VJT56A
+ 	1. Initial release.
+
+CHANGES for O2VKT57A/O2VJT57A
+
+	1.Fix USB port 7 port 8 have no function after S3.
+	2.Modify BSU memory speed MHz string.
+
+CHANGES for O2VKT58A/O2VJT58A
+
+        	1.Remove unused Network 3 and Network 4 from boot sequence.
+	2.PAP&POP can't be set after execute "srwin.exe (srdos.exe) /newadp 123 /newpop 456".[ECR439534][ECR439536][ECR439538]
+	3.Support [Keyboardless Operation] function will show error POST 0211.[ECR439533]
+	4.Enable SHIP_SUPPORT for BOOT_BLOCK_MAJOR_VERSION is 1.
+	5.Modify Type 11 Support 2 string.
+	6.Modify QT WMI Table.
+	7.EDU system have no function with setting EFI password.
+
+CHANGES for O2VKT59A/O2VJT59A
+
+        	1.Samsung SSD will lost when reboot.(collocate with PI 1.0.0.5 above)
+       	 2.Implement BSU flash TPM 1.2/2.0 function.
+
+
+CHANGES for O2VKT61A/O2VJT61A
+
+	1.Show SMBIOS Type13 info.
+
+
+CHANGES for O2VKT62A/O2VJT62A
+
+	1.Fix Error Log will not be produced in system event LOG.
+	2.Modify F12 menu string.
+	3.Modify WMI Table.
+	
+
+CHANGES for O2VKT64A/O2VJT64A
+
+	1.Fixed setup data CMOS map at 57A to prevent flash BIOS will load default.
+	2.Modify F12 startup menu string.
+	3.Fix Intel 600p series M.2 device can not be detect.
+
+CHANGES for O2VKT65A/O2VJT65A
+
+        1.Implement TPMFWSwitch Function.And Support TPM WU package.
+        
+CHANGES for O2VKT81A/O2VJT81A
+        1.Show special LOGO will not show ES LOGO automatically.  
+        2.USB3.1 port can not detect USB3.0 USB under POST.  
+        3.Modify BBR policy. 
+        4.Implement TPM Capsule update.
+
+CHANGES for O2VKT82A/O2VJT82A
+	1.Implement TPM FW Update functionfor TPM Capsule update Password check function.
+        	2.Implement WMI BootSequence for new SPEC.
+
+CHANGES for O2VKT83A/O2VJT83A
+	1.Update Summit PSP FW for reboot/S4 long run have fail rate hang 0xEB.
+	2.Implement CNLogo policy.
+	3.Implement WU update progress BAR and warning message function.
+
+CHANGES for O2VKT84A/O2VJT84A
+
+	1.Implement F2 UefiDMBM.  
+	2.Fix EDU LOGO.
+
+CHANGES for O2VKT85A/O2VJT85A
+
+	1.Fix F2 UefiDMBM Logo shift.
+
+CHANGES for O2VKT86A/O2VJT86A
+
+	1.Security Improvements
+
+CHANGES for O2VKT88A/O2VJT88A
+
+        1.Improve system board reliability 
+
+CHANGES for O2VKT89A/O2VJT89A
+
+        1.Add solution for Blue screen 0x124.
+
+CHANGES for O2VKT90A/O2VJT90A
+
+        1.Security Improvements.
+	2.Fix customized BIOS logo is stretched issue.
+	3.Fix Updating BIOS clears the System Event Log.
+
+CHANGES for O2VKT91A/O2VJT91A
+
+        1.Fix Bristol BSOD issue.
+
+CHANGES for O2VKT92A/O2VJT92A
+
+        1.Security improve.
+
+CHANGES for O2VKT94A/O2VJT94A
+
+        1.Security improve.
+
+CHANGES for O2VKT95A/O2VJT95A
+
+        1.Security improve.
+
+CHANGES for O2VKTA1A/O2VJTA1A
+
+	1.Enhancement to address security vulnerability.
+
+CHANGES for O2VKTA2A/O2VJTA2A
+
+	1.Security improvement.
+
+CHANGES for O2VKTA3A/O2VJTA3A
+
+	1.Resolved Compatibility problem with windows 19H1 and above OS.
+
+CHANGES for O2VKTA4A/O2VJTA4A
+
+	1.Security Improvement.
+	2.Improved compatibility with Windows defender feature.
